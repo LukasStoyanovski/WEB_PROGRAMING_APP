@@ -1,0 +1,86 @@
+.welcome{
+    color: #F0972A;
+    display: flex;
+    font-size: 40px;
+    gap: 10px;
+}
+
+.welcome-baby{
+    color: #626262;
+}
+
+.login-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+}
+
+
+.register-form{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 420px;
+    gap: 5px;
+}
+
+.login-form{
+    margin: 0px 50px;
+    width: 200px;
+}
+
+.email-password{
+    font-weight: 700;
+    color: #F0972A;
+}
+
+.email-password-input{
+    font-weight: 700;
+    width: 250px;
+}
+
+input{
+    width: 200px;
+    height: 35px;
+    border-color: #A5A5A5;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #F0EFEA;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding-left: 10px; 
+}
+
+.sign-in-button{
+    border-width: 0px;
+    border-color: #A5A5A5;
+    border-radius: 5px;
+    background-color: #96BB36;
+    color: white;
+    width: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.sign-in-button span{
+    margin: 20px auto;
+    font-weight: bold;
+}
+.login-label{
+    width: 400px;
+    height: 100px;
+}
+
+.register-label{
+    width: 200px;
+}
+
+.welcome-login{
+    width: 500px;
+}
+
+

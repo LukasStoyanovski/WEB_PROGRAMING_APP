@@ -1,0 +1,17 @@
+{
+    "services": {
+        "proxy": {"port": 10000},
+        "blog": {"port": 10001},
+        "auth": {"port": 10002},
+        "storage": {"port": 10003}
+    },
+    "security": {
+        "jwt_key": "secret"
+    },
+    "db": {
+        "host": "cluster0.0gbsm.mongodb.net",
+        "username": "Lukas",
+        "password": "Lukas123",
+        "dbname": "g16"
+    }
+}

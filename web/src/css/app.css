@@ -1,0 +1,18 @@
+/* header{
+    width: 100%;
+    height: 200px;
+} */
+
+#app{
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    #app{
+        width: auto;
+    }
+}
+

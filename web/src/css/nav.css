@@ -1,0 +1,168 @@
+
+.nav{
+    height: 150px;
+}    
+
+.type-of-foods{
+    display: flex;
+    justify-content: center;
+}
+
+.my-recipes{
+    color: #96BB36;
+    text-decoration: underline;
+}
+
+.my-profile{
+    text-decoration: underline;
+    color: #F0972A;
+}
+
+.log-out-btn{
+    color: #A5A5A5;
+    text-decoration: underline;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-around;   
+    font-weight: 600;
+    height: auto;
+    text-transform: uppercase;
+    align-items: center ;
+    width: auto ;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: auto;
+    text-decoration: none;
+}
+
+.logged-in-links{
+    font-size: 18px;
+}
+
+
+
+.type-of-foods li::after{
+    content:'\00B7';
+    padding-right:10px;
+    color: #F0972A;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+
+.type-of-foods li button{
+    border: none;
+    background-color: #F8F7F2;
+}
+
+button{
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.login{
+    border-width: 1px;
+    border-color: #A5A5A5;
+    border-radius: 5px;
+    opacity: 1;
+    border-style: solid;
+    align-items: center;
+}
+
+.login span{
+    color: #A5A5A5;
+}
+
+.register{
+    border-width: 0px;
+    border-color: #A5A5A5;
+    border-radius: 5px;
+    background-color: #96BB36;
+    color: white; 
+}
+
+.buttons a button{
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px;
+    justify-content: center;
+    
+}
+
+.buttons a button span{
+    margin: 10px 20px;
+}
+
+.or{
+    margin: auto 10px;
+    color: #F0972A;
+    font-size: 12px;
+}
+
+img{
+    width: 30px;
+}
+
+.buttons{
+    width: auto;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a {
+    display: flex;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+.foods-links{
+    text-decoration: none;
+    color: #A5A5A5;
+}
+
+.nav-btns{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    .header-links{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;   
+        font-weight: 600;
+        height: auto;
+        text-transform: uppercase;
+        align-items: center ;
+        width: 100% ;
+        margin: auto;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .type-of-foods{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        height: 30px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+
+
