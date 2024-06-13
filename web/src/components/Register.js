@@ -49,11 +49,9 @@ export const Register = () => {
            <div className="login-div">
                <div className="welcome-login">
                     <h4 className="welcome">Create your<h4 className="welcome-baby">account</h4></h4>
-                    <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
-                         making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, 
-                         combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
-                         The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic 
-                         words etc.</p>
+                    <p>Sign up to unlock a world of delicious recipes, create your own culinary masterpieces, 
+                        and connect with fellow food lovers. Whether you're a seasoned chef or just starting out, 
+                        Recipe Haven is the perfect place to share and discover new flavors.</p>
                </div>
             <form className="register-form" onSubmit={submit}>
             <label className="register-label">

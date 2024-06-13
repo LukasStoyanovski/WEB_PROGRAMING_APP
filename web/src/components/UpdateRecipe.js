@@ -173,7 +173,7 @@ export const UpdateRecipe = () => {
                     
                     {isFileSelected ? 
                     <button className="sign-in-button" onClick={()=>{updatePostAndPhoto(id)}}><span className="button-span">SAVE</span></button> :
-                    <button className="sign-in-button" onClick={()=>{updateOnlyPost(id);}}><span className="button-span">SAVE</span></button> 
+                    <button className="sign-in-button" onClick={()=>{updateOnlyPost(id); navigate('/my-recipes');}}><span className="button-span">SAVE</span></button> 
 
                     }   
                     </div>

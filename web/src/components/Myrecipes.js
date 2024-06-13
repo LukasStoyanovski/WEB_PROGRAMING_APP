@@ -95,7 +95,7 @@ export const Myrecipes = () => {
                         <td><span>{post.title}</span></td>
                         <td><span className="category">{post.type}</span></td>
                         <td><span>{post.publishDate}</span></td>
-                        <td><button className="delete-btn" onClick={()=>{deletePost(post._id); deleteImg(post.photo); }}><IconTrashcan/></button></td>
+                        <td><button className="delete-btn" onClick={()=>{deletePost(post._id); deleteImg(post.photo);}}><IconTrashcan/></button></td>
                     </tr>
                         )
                     })

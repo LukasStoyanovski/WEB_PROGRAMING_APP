@@ -18,7 +18,7 @@ export const Footer = () => {
             <li><Link className="footer-food-links" to="/lunch">Lunch</Link></li>
             <li><Link className="footer-food-links"  to="/dinner">Dinner</Link></li>
         </ul>
-        <span>Baby’s Food Place copyright © 2021</span>
+        <span>Baby’s Food Place copyright © 2024</span>
         </div>
     )
 }
