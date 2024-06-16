@@ -55,7 +55,7 @@ export const Login = () => {
             <div className="login-div">
 
                 <div className="welcome-login">
-                    <h4 className="welcome">Welcome to <h4 className="welcome-baby">Baby's</h4></h4>
+                    <h4 className="welcome">Welcome to <h4 className="welcome-baby">Recipe Haven</h4></h4>
                         <p>Log in to access your personalized recipe collection, share your culinary creations, 
                             and discover new dishes from around the world. Join our community of food enthusiasts 
                             and make every meal memorable.</p>
