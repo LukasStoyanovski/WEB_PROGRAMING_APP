@@ -85,7 +85,7 @@ export const Register = () => {
             </label>
             
             
-            <button className="sign-in-button" type='submit'><span>Creat Account</span></button>
+            <button className="sign-in-button" type='submit'><span>Create Account</span></button>
 
             </form>
             </div>
